@@ -1,0 +1,8 @@
+def AOC (radius):
+    pi_v = 3.142
+    Radius_Sq = radius * radius
+    aoc = pi_v * Radius_Sq
+    return aoc
+Radius = eval(input ("enter radius:"))
+RESULT = AOC(Radius)
+print (RESULT)
